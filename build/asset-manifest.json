@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c55bdca2.css",
+    "main.js": "/static/js/main.63859a0d.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/FruitHarbour.png": "/static/media/FruitHarbour.11038c56a97620c994ba.png",
+    "static/media/Sahaita.png": "/static/media/Sahaita.e008a7b240629a2cbc7b.png",
+    "static/media/IMG_8087.jpg": "/static/media/IMG_8087.8b0ebcea91af0e255587.jpg",
+    "static/media/SwiftCV3.png": "/static/media/SwiftCV3.b71a528c3177fed64722.png",
+    "static/media/SmartPath.png": "/static/media/SmartPath.bd3eef4d7773ea612635.png",
+    "static/media/PollPro.jpg": "/static/media/PollPro.b9b13845e29f5cbc4c0e.jpg",
+    "static/media/Logo.jpg": "/static/media/Logo.a774e84f2ce4f32c842e.jpg",
+    "index.html": "/index.html",
+    "main.c55bdca2.css.map": "/static/css/main.c55bdca2.css.map",
+    "main.63859a0d.js.map": "/static/js/main.63859a0d.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55bdca2.css",
+    "static/js/main.63859a0d.js"
+  ]
+}
