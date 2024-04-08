@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import styled from 'styled-components';
 //import _default from '../../themes/default';
-import ProjectCards from '../Cards/ProjectCards';
+import ProjectCard from '../Cards/ProjectCards';
 import { projects } from '../data/Constants'
 
 export const Container = styled.div`
@@ -145,12 +145,12 @@ const Projects = ({openModal,setOpenModal}) => {
         <CardContainer>
           {toggle === 'all' && projects
             .map((project) => (
-              <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
           {projects
             .filter((item) => item.category == toggle)
             .map((project) => (
-              <ProjectCards project={project} openModal={openModal} setOpenModal={setOpenModal}/>
+              <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
         </CardContainer>
       </Wrapper>
