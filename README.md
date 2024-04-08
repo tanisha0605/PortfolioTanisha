@@ -1,7 +1,7 @@
 # My Portfolio 
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-## Some Images:
+## Images:
 <img width="450px;"  src="https://github.com/tanisha0605/PortfolioTanisha/assets/144723509/5e7e2f84-313c-4cc0-acc0-99f26a28d9b6">
 <img width="450px;"  src="https://github.com/tanisha0605/PortfolioTanisha/assets/144723509/2a74e3b2-f9aa-460d-98da-f8b802097f83">
 <img width="450px;"  src="https://github.com/tanisha0605/PortfolioTanisha/assets/144723509/87eea108-7213-40a0-990c-4d4ce88de3d5">
