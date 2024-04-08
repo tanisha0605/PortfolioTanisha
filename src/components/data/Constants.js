@@ -4,6 +4,12 @@ import img3 from "../../images/FruitHarbour.png"
 import img4 from "../../images/PollPro.jpg"
 import img5 from "../../images/Sahaita.png"
 import img6 from "../../images/SmartPath.png"
+import img7 from "../../images/school.png"
+import img8 from "../../images/clg1.jpeg"
+import img9 from "../../images/clg2.png"
+import img10 from "../../images/exp1.jpeg"
+import img11 from "../../images/exp2.jpeg"
+import img12 from "../../images/exp3.jpg"
 export const Bio = {
     name: "Tanisha Kanal",
     roles: [
@@ -19,7 +25,7 @@ export const Bio = {
       "As a determined young woman in IT engineering, I thrive on embracing fresh challenges. Fueled by a passion for learning, I am committed to producing top-notch results in technology. With a positive attitude and a growth mindset, I am poised to make a substantial impact in the field.",
     github: "https://www.github.com/tanisha0605",
     resume:
-      "https://drive.google.com/file/d/1wppV0lfPzekYReGif0VOH7XzBWrd3pCq/view?usp=drive_link",
+      "https://drive.google.com/file/d/18cYxSIzx9cZvxPAlx97fdDxaN5a7zYmN/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/tanisha-kanal-aa7a5a1b7/",
     twitter: "https://twitter.com/TanishaKanal",
     insta: "https://www.instagram.com/tanishaa_0605/",
@@ -189,6 +195,7 @@ export const Bio = {
       role: "Java Intern",
       company: "Sync Interns",
       date: "Sept 2023 - Oct 2023",
+      img:img10,
       desc: "Creating java based applications using GUI and MySQL.",
       skills: [
         "MySQL",
@@ -203,6 +210,7 @@ export const Bio = {
       role: "Marketing Team Member",
       company: "DJ Init.AI",
       date: "Oct 2023 - Present",
+      img:img11,
       desc: "Curating and implementing marketing strategies for the events organized by the club.",
       skills: [
         "Social Media Marketing",
@@ -216,6 +224,7 @@ export const Bio = {
       role: "Editorial Team Member",
       company: "DJS Robotics and Automation Society",
       date: "Oct 2023 - Present",
+      img:img12,
       desc: "Writing and editing newsletters and handling social media page",
       skills: [
         "Social Media Writing",
@@ -229,7 +238,8 @@ export const Bio = {
       id: 0,
       school: "Dwarkadas J.Sanghvi College of Engineering",
       date: "2022 - 2026",
-      grade: "",
+      img:img9,
+      grade: "SGPA: 9.283(Till sem 3)",
       desc: "I am currently pursuing a Bachelor's degree in Information Technology Engineering at Dwarkadas J.Sanghvi College of Engineering,Mumbai",
       degree: "Bachelor of Technology - BTech, Information Technology Engineering",
     },
@@ -237,6 +247,7 @@ export const Bio = {
       id: 1,
       school: "Prakash College of Commerce and Science",
       date: "Apr 2019 - Apr 2025",
+      img:img8,
       grade: "CET:97.06%tile",
       desc: "I completed my class 12 high school education at Prakash College of Commerce and Science,Mumbai , where I studied Science with Computer Science.",
       degree: "HSC(XII), Science",
@@ -246,6 +257,7 @@ export const Bio = {
      
       school: "Mary Immaculate Girls High School",
       date: "",
+      img:img7,
       grade: "95.6%",
       desc: "I completed my class 10 education at Mary Immaculate Girls High School,Mumbai",
       degree: "SSC(X), Science with Computer",
