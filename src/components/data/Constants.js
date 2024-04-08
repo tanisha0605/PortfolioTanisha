@@ -10,6 +10,7 @@ import img9 from "../../images/clg2.png"
 import img10 from "../../images/exp1.jpeg"
 import img11 from "../../images/exp2.jpeg"
 import img12 from "../../images/exp3.jpg"
+import img13 from "../../images/Home.png"
 export const Bio = {
     name: "Tanisha Kanal",
     roles: [
@@ -18,8 +19,6 @@ export const Bio = {
       "Frontend Developer",
       "Programmer",
       "Backend Developer",
-      
-
     ],
     description:
       "As a determined young woman in IT engineering, I thrive on embracing fresh challenges. Fueled by a passion for learning, I am committed to producing top-notch results in technology. With a positive attitude and a growth mindset, I am poised to make a substantial impact in the field.",
@@ -265,6 +264,27 @@ export const Bio = {
   ];
 
   export const projects = [
+    {
+      id: 7,
+      title: "Real Estate App",
+      date: "April 2024 - May 2024",
+      description:
+        "A full-stack MERN-based real estate marketplace for property listing creation and viewing.",
+        image:img13,
+      tags: [
+        "MongoDB",
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "Redux",
+        "Tailwind CSS",
+        "JWT Authentication",
+        "Firebase"
+      ],
+      category: "web app",
+      github: "",
+      
+    },
     {
       id: 6,
       title: "Roadmap Generator using Gen AI - SmartPath",
