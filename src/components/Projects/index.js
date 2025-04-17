@@ -34,9 +34,9 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'aiml' ?
-            <ToggleButton active value="aiml" onClick={() => setToggle('aiml')}>AI/ML AND WEB</ToggleButton>
+            <ToggleButton active value="aiml" onClick={() => setToggle('aiml')}>AI/ML</ToggleButton>
             :
-            <ToggleButton value="aiml" onClick={() => setToggle('aiml')}>AI/ML AND WEB</ToggleButton>
+            <ToggleButton value="aiml" onClick={() => setToggle('aiml')}>AI/ML</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

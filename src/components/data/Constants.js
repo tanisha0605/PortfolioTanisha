@@ -11,10 +11,13 @@ import img10 from "../../images/exp1.jpeg"
 import img11 from "../../images/exp2.jpeg"
 import img12 from "../../images/exp3.jpg"
 import img13 from "../../images/Home.png"
+import img14 from "../../images/image.png"
+import img15 from "../../images/imagesa.png"
 export const Bio = {
     name: "Tanisha Kanal",
     roles: [
       "Fullstack Developer",
+      "AI/ML Developer",
       "IT Engineer",
       "Frontend Developer",
       "Programmer",
@@ -24,7 +27,7 @@ export const Bio = {
       "As a determined young woman in IT engineering, I thrive on embracing fresh challenges. Fueled by a passion for learning, I am committed to producing top-notch results in technology. With a positive attitude and a growth mindset, I am poised to make a substantial impact in the field.",
     github: "https://www.github.com/tanisha0605",
     resume:
-      "https://drive.google.com/file/d/18cYxSIzx9cZvxPAlx97fdDxaN5a7zYmN/view?usp=drive_link",
+      "https://drive.google.com/file/d/1Hfwp8QXjn-DrHqBckpL9qyT4Ros25YvE/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/tanisha-kanal-aa7a5a1b7/",
     twitter: "https://twitter.com/TanishaKanal",
     insta: "https://www.instagram.com/tanishaa_0605/",
@@ -91,13 +94,13 @@ export const Bio = {
         {
           name: "Flask",
           image:
-            "https://damiandeluca.com.ar/wp-content/uploads/2020/05/flask-300x300.jpg",
+            "https://www.vectorlogo.zone/logos/palletsprojects_flask/palletsprojects_flask-icon.svg",
         },
         
       ],
     },
     {
-      title: "Data Science",
+      title: "Data Science and Machine Learning",
       skills: [
         {
           name: "NumPy",
@@ -115,6 +118,23 @@ export const Bio = {
           name: "Seaborn",
           image: "https://user-images.githubusercontent.com/315810/92159303-30d41100-edfb-11ea-8107-1c5352202571.png",
         },
+        {
+          name : "Keras",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3G7aNWlBFrxvcqPJlFkdUqQ3mSxFokba9g&s"
+        },
+        {
+          name : "TensorFlow",
+          image: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+        },
+        {
+          name : "PyTorch",
+          image: "https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"
+        },
+        {
+          name : "scikit-learn",
+          image: "https://icon.icepanel.io/Technology/svg/scikit-learn.svg"
+        },
+
       ],
       },
     {
@@ -176,7 +196,7 @@ export const Bio = {
         {
           name:"Canva",
           image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg"
+          "https://www.vectorlogo.zone/logos/canva/canva-icon.svg"
          },
         {
           name: "Figma",
@@ -188,6 +208,46 @@ export const Bio = {
   ];
   
   export const experiences = [
+    {
+      id: 0,
+      role: "Junior Research Lead",
+      company: "DJ Init.AI",
+      date: "Sept 2024 - Present",
+      img:img11,
+      desc: "Currently developing a GAN-based video watermarking model leveraging various GAN architectures such as StyleGAN, DCGAN and keyframe analysis techniques leading to enhanced robustness.",
+      skills: [
+        "Research",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Generative Adversial Networks (GANs)",
+      ], 
+    },
+    {
+      id: 0,
+      role: "Marketing Team Member",
+      company: "DJ Init.AI",
+      date: "Oct 2023 - Aug 2024",
+      img:img11,
+      desc: "Curating and implementing marketing strategies for the events organized by the club.",
+      skills: [
+        "Social Media Marketing",
+        "Marketing Strategy",
+        "Cold Calling",
+        "Email Marketing",
+      ], 
+    },
+    {
+      id: 0,
+      role: "Editorial Team Member",
+      company: "DJS Robotics and Automation Society",
+      date: "Oct 2023 - Aug 2024",
+      img:img12,
+      desc: "Drafted articles for the society’s newsletter on the latest advancements in AI, reaching over 1500+ students, fostering awareness and understanding of emerging technologies.",
+      skills: [
+        "Social Media Writing",
+        "Creative Writing",
+      ], 
+    },
     {
       id: 0,
       
@@ -204,32 +264,6 @@ export const Bio = {
       ],
     
     },
-    {
-      id: 0,
-      role: "Marketing Team Member",
-      company: "DJ Init.AI",
-      date: "Oct 2023 - Present",
-      img:img11,
-      desc: "Curating and implementing marketing strategies for the events organized by the club.",
-      skills: [
-        "Social Media Marketing",
-        "Marketing Strategy",
-        "Cold Calling",
-        "Email Marketing",
-      ], 
-    },
-    {
-      id: 0,
-      role: "Editorial Team Member",
-      company: "DJS Robotics and Automation Society",
-      date: "Oct 2023 - Present",
-      img:img12,
-      desc: "Writing and editing newsletters and handling social media page",
-      skills: [
-        "Social Media Writing",
-        "Creative Writing",
-      ], 
-    },
   ];
   
   export const education = [
@@ -238,7 +272,7 @@ export const Bio = {
       school: "Dwarkadas J.Sanghvi College of Engineering",
       date: "2022 - 2026",
       img:img9,
-      grade: "SGPA: 9.283(Till sem 3)",
+      grade: "CGPA: 9.2",
       desc: "I am currently pursuing a Bachelor's degree in Information Technology Engineering at Dwarkadas J.Sanghvi College of Engineering,Mumbai",
       degree: "Bachelor of Technology - BTech, Information Technology Engineering",
     },
@@ -264,6 +298,25 @@ export const Bio = {
   ];
 
   export const projects = [
+    {
+      id: 8,
+      title: "EduTrack - School Management System",
+      date: "April 2024 - May 2024",
+      description:
+        "Built a MERN-based school management system with Tailwind CSS, featuring class/teacher/student management, interactive analytics via Chart.js, and responsive UI with pagination, filtering, and sorting.",
+        image:img14,
+      tags: [
+        "MongoDB",
+        "Node.js",
+        "Express.js",
+        "React.js",
+        "Tailwind CSS",
+        "Chart.js"
+      ],
+      category: "web app",
+      github: "https://github.com/tanisha0605/School-Management-System",
+      
+    },
     {
       id: 7,
       title: "Real Estate App",
@@ -326,6 +379,19 @@ export const Bio = {
       ],
       category: "aiml",
       github: "https://github.com/tanisha060504/SahAIta-Customer-Care-Assistant",
+    },
+    {
+      id: 9,
+      title: "Sentiment Analysis on Amazon Reviews",
+      date: "September 2024",
+      description:
+        "Built a sentiment analysis model for Amazon reviews with 93% accuracy using Logistic Regression, Naive Bayes, LSTM, and BERT, with preprocessing, EDA, and performance optimization.",
+        image:img15,
+      tags: [
+        "Python", "Scikit-learn", "TensorFlow", "NLP"
+      ],
+      category: "aiml",
+      github: "https://github.com/tanisha0605/sentiment-analysis-on-amazon-reviews",
     },
     {
       id: 1,
